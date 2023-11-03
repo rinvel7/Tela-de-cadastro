@@ -9,7 +9,7 @@ const Header = ({autenticado}) => {
     <Wrapper>
       <Container>
           <Row>
-            <img src={logo} alt="Logo da dio"/>
+            {/* <img src={logo} alt="Logo da dio"/> */}
             {autenticado ? (
               <>
                <BuscarInputContainer>
